@@ -9,7 +9,7 @@ This repository contains **Dockerfile** of [Oracle-Java](https://www.java.com/) 
 
 ### Docker Tags
 
-`chaopeng/jenv-docker` provides multiple tagged images:
+`chaopeng/jenv` provides multiple tagged images:
 
 * 'latest': oracle-java 1.8.0_40
 * 'jdk8': oracle-java 1.8.0_40
@@ -19,14 +19,19 @@ This repository contains **Dockerfile** of [Oracle-Java](https://www.java.com/) 
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://registry.hub.docker.com/u/chaopeng/chaopeng/jenv-docker/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull chaopeng/jenv-docker`
+2. Download [automated build](https://registry.hub.docker.com/u/chaopeng/chaopeng/jenv/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull chaopeng/jenv`
 
 
 
 ### Usage
 
-    docker run -it --rm chaopeng/jenv-docker java -version
+    docker run -it --rm chaopeng/jenv java -version
     
 ### To Run a Bash Script
 
     add `source "/root/.jenv/bin/jenv-init.sh"` to first line.
+    
+### Thanks
+
+* [jenv.io](http://jenv.io/)
+
