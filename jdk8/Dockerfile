@@ -7,6 +7,6 @@ RUN curl -L -s get.jenv.io | bash && \
     source "/root/.jenv/bin/jenv-init.sh" && \
     jenv repo update && \
     jenv config auto true && \
-    jenv install java 1.8.0_40
+    jenv install java 1.8.0_60
     
 env PATH /root/.jenv/candidates/java/current/bin:$PATH
