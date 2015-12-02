@@ -13,7 +13,7 @@ This repository contains **Dockerfile** of [Oracle-Java](https://www.java.com/) 
 `chaopeng/jenv` provides multiple tagged images:
 
 * `latest`: oracle-java 1.8.0_60 [![](https://badge.imagelayers.io/chaopeng/jenv:latest.svg)](https://imagelayers.io/?images=chaopeng/jenv:latest 'Get your own badge on imagelayers.io')
-* `latest-mini`: alpine + oracle-java 1.8.0_60 [![](https://badge.imagelayers.io/chaopeng/jenv:latest.svg)](https://imagelayers.io/?images=chaopeng/jenv:latest 'Get your own badge on imagelayers.io')
+* `latest-mini`: alpine + oracle-java 1.8.0_60 [![](https://badge.imagelayers.io/chaopeng/jenv:latest-mini.svg)](https://imagelayers.io/?images=chaopeng/jenv:latest-mini 'Get your own badge on imagelayers.io')
 * `jdk8`: oracle-java 1.8.0_60 [![](https://badge.imagelayers.io/chaopeng/jenv:jdk8.svg)](https://imagelayers.io/?images=chaopeng/jenv:jdk8 'Get your own badge on imagelayers.io')
 * `jdk7`: oracle-java 1.7.0_75 [![](https://badge.imagelayers.io/chaopeng/jenv:jdk7.svg)](https://imagelayers.io/?images=chaopeng/jenv:jdk7 'Get your own badge on imagelayers.io')
 
