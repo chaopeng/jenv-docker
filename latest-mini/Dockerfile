@@ -1,14 +1,17 @@
-FROM centos:latest
+FROM chaopeng/docker-alpine-glibc
 MAINTAINER Chao<chaopeng@chaopeng.me>
 
-RUN yum install -y unzip && \
-    yum clean all
+RUN apk add --update bash curl unzip && \
+    rm -rf /var/cache/apk/* && \
+    sed -i 's/ash/bash/' /etc/passwd && \
+    rm /bin/sh && \
+    ln -s /bin/bash /bin/sh
 
 RUN curl -L -s get.jenv.io | bash && \
     source "/root/.jenv/bin/jenv-init.sh" && \
     jenv repo update && \
     jenv config auto true && \
-    jenv install java 1.7.0_75 && \
+    jenv install java && \
     jenv clean && \
     rm /root/.jenv/candidates/java/current/javafx-src.zip /root/.jenv/candidates/java/current/src.zip
     
