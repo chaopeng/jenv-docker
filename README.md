@@ -13,7 +13,7 @@ This repository contains **Dockerfile** of [Oracle-Java](https://www.java.com/) 
 `chaopeng/jenv` provides multiple tagged images:
 
 * `latest`: oracle-java 1.8.0_60
-* `latest`: alpine + oracle-java 1.8.0_60
+* `latest-mini`: alpine + oracle-java 1.8.0_60
 * `jdk8`: oracle-java 1.8.0_60
 * `jdk7`: oracle-java 1.7.0_75
 
