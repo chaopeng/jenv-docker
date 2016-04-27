@@ -1,7 +1,7 @@
 FROM centos:latest
 MAINTAINER Chao<chaopeng@chaopeng.me>
 
-RUN yum install -y unzip && \
+RUN yum install -y unzip which && \
     yum clean all
 
 RUN curl -L -s get.jenv.io | bash && \
